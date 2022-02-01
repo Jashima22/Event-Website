@@ -1,0 +1,158 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: monospace,cursive;
+    background-image: url("https://media2.giphy.com/media/3o6gEcRqm3t08Z8mHK/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    
+}
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100px;
+    padding:10px 90px;
+    box-sizing:border-box;
+    background:rgba(0,0,0,0.5);
+    border-bottom:1px solid #fff;
+}
+nav .logo{
+    padding:22px 20px;
+    height:80px;
+    float:left;
+    font-size:35px;
+    font-weight:bold;
+    color:#fff;
+}
+nav ul{
+    list-style:none;
+    float:right;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+nav ul li a{
+    line-height:80px;
+    color:#fff;
+    padding:12px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:bold;
+}
+nav ul li a:hover{
+    background: rgba(235, 248, 56, 0.433);
+    border-radius:6px;
+}
+.wrap{
+    background-color: rgba(0,0,0,0.5);
+    margin-right:50%;
+    margin-top:70px;
+    position: relative;
+    top:100px;
+    left:950px;
+    height: 380px;
+    width:400px;
+}
+.wrap .bg-content{
+ background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    font-family: 'Courier New', Courier, monospace;
+    height:200px;
+    border-color: #f1c40f;
+    box-shadow: teal;
+    position: relative; 
+left:50px;
+top:50px;
+    text-align: center;
+    width:300px;
+}
+.content1{
+    color:white;
+    font-size: larger; 
+    font-weight: 200px;
+    text-transform:uppercase ;
+    letter-spacing: 2px;
+}
+.bg-content h4{
+color:orangered;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #f9eca0;
+	background:linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
+	background-color:#f0c911;
+	border-radius:6px;
+	border:1px solid #e65f44;
+	display:inline-block;
+	cursor:pointer;
+	color:#c92200;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:11px 17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ded17c;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f2ab1e 5%, #f0c911 100%);
+	background-color:#f2ab1e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.card1{
+    display:grid;
+    grid-template-columns:300px;
+    grid-template-rows:210px 210px 80px;
+    grid-template-areas:"img" "text" "stats";
+
+    font-family: roboto,cursive;
+border-radius:18px;
+
+
+}
+/* Cards*/
+#tab1 {
+    padding: 2em 1em 1em;
+    margin-top:25%;
+    background-image: url("https://media.istockphoto.com/vectors/dark-black-background-wallpaper-vector-id1165900746?k=20&m=1165900746&s=612x612&w=0&h=1LVHf6tZ6Gw8FIZqSI7Tx2VP38LuFCYtZ1upSmkypAA=");
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    background-repeat:no-repeat ;
+    background-size: cover;
+text-align:center;
+  }
+#tab1 ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+    grid-column: 2/4;
+    display:flex;
+    justify-content: space-between;
+  }
+  #tab1 li {
+    margin-bottom: 1em;
+    background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+    color: #333;
+    width:31%;
+  }
+  
+  .card-content {
+    padding: 3em;
+  }
+  #tab1 img{
+      display:block;
+      width:100%;
+      height:600;
+  }
+  .footer{
+      box-sizing: border-box;
+      background-color: rgba(0,0,0,0.5);
+      height:contain;
+      width:100vw;
+      padding-top:40px;
+      color:white;
+  }
+  
+  
+   
